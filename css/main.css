@@ -9,7 +9,7 @@ textarea {
 }
 
 html {
-    font-size: 1em;
+    font-size: medium;
     line-height: 1.4;
 }
 
@@ -63,6 +63,7 @@ textarea {
 
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    background-color: #ccc;
 }
 
 .wrapper {
@@ -70,28 +71,7 @@ body {
     margin: 0 5%;
 }
 
-/* ===================
-    ALL: Orange Theme
-   =================== */
 
-.header-container {
-    border-bottom: 20px solid #e44d26;
-}
-
-.footer-container,
-.main aside {
-    border-top: 20px solid #e44d26;
-}
-
-.header-container,
-.footer-container,
-.main aside {
-    background: #f16529;
-}
-
-.title {
-    color: white;
-}
 
 /* ==============
     MOBILE: Menu
@@ -112,7 +92,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: #6B006B;
 }
 
 nav a:hover,
@@ -158,7 +138,9 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-
+header {
+	background-color: white;
+}
 
 
 

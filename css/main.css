@@ -73,36 +73,7 @@ body {
 
 
 
-/* ==============
-    MOBILE: Menu
-   ============== */
 
-nav ul {
-    margin: 0;
-    padding: 0;
-}
-
-nav a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-
-    color: white;
-    background: #6B006B;
-}
-
-nav a:hover,
-nav a:visited {
-    color: white;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
 
 /* ==============
     MOBILE: Main
@@ -142,6 +113,11 @@ header {
 	background-color: white;
 }
 
+section {
+	margin: 10%;
+	clear: both;
+}
+
 
 
 
@@ -164,12 +140,41 @@ header {
     INTERMEDIATE: Menu
    ==================== */
 
-    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
+	nav {
+		position: absolute;
+		width: 100%;
+	}
+	
+	nav a {
+		padding: 10px;
+	}
+	
+	
+	nav ul {
+		list-style: none;
+		padding: 0px;
+	}
+    
+    nav li {
+    	float: left;
+    	margin-right: 5px;
+    	padding: 0px;
+    }
+    
+    nav li:hover ul {
+    	display: block;
+    }
+    
+    nav li ul {
+    	display: none;
+    	position: absolute;
+    	padding: 0;
+    }
+    
+    nav li li {
+    	float: none;
+    	margin: 0;
+    	background-color: white;
     }
 
     nav li:first-child a {

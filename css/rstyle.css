@@ -27,22 +27,29 @@ main {
 	border-bottom: 10px solid #ddd;
 }
 
-main ul {
+.home ul {
 	position: relative;
 }
 
-main li {
+.home li {
 	text-decoration: none;
-	font-size: 1.5em;
+	font-size: 1.6em;
+	font-weight: bold;
 	display: inline;
 	background-color: purple;
 	color: white;
-	padding: 8px 12px;
+	padding: 15px 15px;
 	margin: 0 10px 0 0;
 	float: center;
 }
 
-main li:hover {
+.home a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.home li:hover {
 	background-color: #888;
 }
 
@@ -53,8 +60,13 @@ section {
 	width: 60%;
 	float: left;
 	clear: both;
-	margin-top: 50px;
+	margin-top: 70px;
 	margin-bottom: 20px;
+}
+
+section h1 {
+	font-size: 2em;
+	padding-top: 10px;
 }
 
 section h2 {
@@ -63,7 +75,7 @@ section h2 {
 	margin: 30px 0 5px 0;
 }
 
-#home section h2 {
+.home section h2 {
 	font-size: 2.3em;
 
 }
@@ -79,7 +91,13 @@ section p {
 	font-size: .9em;
 }
 
-#home article p:last-of-type {
+.bold {
+	font-weight: bold;
+	margin: 0;
+	color: purple;
+}
+
+.home article p:last-of-type {
 	color:purple;
 	font-weight: bold;
 	margin-bottom: 30px;
@@ -90,10 +108,9 @@ aside {
 	float: left;
 	width: 30%;
 	background-color: #aaa;
-	color: #5C007A;
 	padding: 10px;
 	margin-left: 20px;
-	margin-top: 50px;
+	margin-top: 70px;
 	font-size: small;
 }
 
@@ -108,8 +125,12 @@ aside time {
 }
 
 aside h3 {
-	color: #5c007a;
+	color: purple;
 	margin: 0;
+}
+
+aside p {
+	color: black;
 }
 
 #about li {
@@ -204,3 +225,22 @@ nav li li:hover {
 	background-color: purple;
 }
 
+#cle nav li {
+	background-color: #888;
+	display: block;
+	margin: 0 0 15px 20px;
+
+}
+
+#cle nav ul {
+	font-size: .8em;
+	width: 250px;
+}
+
+#cle nav li:hover {
+	background-color: #555;
+}
+
+.clear {
+	clear: both;
+}

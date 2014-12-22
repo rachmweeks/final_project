@@ -1,25 +1,55 @@
 body {
-	margin-top: 80px;
-	width: 800px;
+	width: 70%;
+	max-width: 800px;
+	min-width: 525px;
 	margin: 0 auto 20px auto;
+	font-family: 'Raleway', sans-serif;
+	background-color: #ddd;
 }
 
-header img {
-	postion: relative;
+header {
+	background-color: #fff;
 }
-
 
 main {
-	clear: both;
-	margin-top: 80px;	
+	position: relative;
+	top: 45px;
+	background-color: #fff;
 }
 
+#benefitpic {
+	background-image: url(../img/benefit.png);
+	background-repeat: no-repeat;
+	color: white;
+	text-shadow: 0px 0px 6px black;
+	max-width: 800px;
+	height: 266px;
+	padding: 20px;
+	line-height: 1.4em;
+}
+
+main li {
+	text-decoration: none;
+	display: block;
+}
+
+
+section {
+	background-color: #fff;
+}
+
+header nav {
+	position: absolute;
+	clear: both;
+	z-index: 1;	
+}
+
+
 nav ul {
-	width: 650px;
+	width: 800px;
 	height: 100px;
 	padding: 0 0 20px 0;
 	color: white;
-	position: absolute;
 	clear: both;
 }
 
@@ -31,7 +61,7 @@ nav li {
 	padding: 6px 10px;
 	margin-right: 5px;
 	background-color: purple;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 nav li a {
@@ -48,7 +78,7 @@ nav li ul {
 	display: none;
 	position: absolute;
 	padding: 0;
-	background-color: white;
+	width: 500px;
 }
 
 nav li:hover ul {

@@ -9,7 +9,7 @@ textarea {
 }
 
 html {
-    font-size: medium;
+    font-size: 1em;
     line-height: 1.4;
 }
 
@@ -63,14 +63,12 @@ textarea {
 
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
-    background-color: #ccc;
 }
 
 .wrapper {
     width: 90%;
     margin: 0 5%;
 }
-
 
 
 
@@ -105,30 +103,6 @@ body {
     padding-top: 20px;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-header {
-	background-color: white;
-}
-
-section {
-	margin: 10%;
-	clear: both;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Media Queries
@@ -136,54 +110,7 @@ section {
 
 @media only screen and (min-width: 480px) {
 
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
 
-	nav {
-		position: absolute;
-		width: 100%;
-	}
-	
-	nav a {
-		padding: 10px;
-	}
-	
-	
-	nav ul {
-		list-style: none;
-		padding: 0px;
-	}
-    
-    nav li {
-    	float: left;
-    	margin-right: 5px;
-    	padding: 0px;
-    }
-    
-    nav li:hover ul {
-    	display: block;
-    }
-    
-    nav li ul {
-    	display: none;
-    	position: absolute;
-    	padding: 0;
-    }
-    
-    nav li li {
-    	float: none;
-    	margin: 0;
-    	background-color: white;
-    }
-
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
-    }
 
 /* ========================
     INTERMEDIATE: IE Fixes
@@ -211,18 +138,7 @@ section {
                 box-shadow: 0 5px 10px #aaa;
     }
 
-/* ============
-    WIDE: Menu
-   ============ */
 
-    .title {
-        float: left;
-    }
-
-    nav {
-        float: right;
-        width: 38%;
-    }
 
 /* ============
     WIDE: Main

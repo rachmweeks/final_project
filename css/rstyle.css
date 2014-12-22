@@ -74,7 +74,7 @@ section p {
 	font-size: .9em;
 }
 
-article p:last-of-type {
+section article p:last-of-type {
 	color:purple;
 	font-weight: bold;
 	margin-bottom: 30px;
@@ -92,6 +92,23 @@ aside {
 	margin-top: 50px;
 	font-size: small;
 }
+
+aside h2 {
+	color: white;
+}
+
+aside time {
+	color: white;
+	font-size: 1.4em;
+	line-height: 1em;
+}
+
+aside h3 {
+	color: #5c007a;
+	margin: 0;
+}
+
+
 
 footer {
 	clear: both;
